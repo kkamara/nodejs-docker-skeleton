@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-docker-skeleton",
+  "version": "0.1.0",
+  "description": "(2025) Get started with NodeJS and Docker.",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "yarn node src/app.js",
+    "dev": "yarn nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkamara/python-docker-skeleton.git"
+  },
+  "author": "https://github.com/kkamara",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/kkamara/python-docker-skeleton/issues"
+  },
+  "homepage": "https://github.com/kkamara/python-docker-skeleton#readme",
+  "dependencies": {
+    "cli": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "yarn": "^1.22.22"
+  }
+}

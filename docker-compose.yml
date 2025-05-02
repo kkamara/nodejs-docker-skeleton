@@ -1,0 +1,13 @@
+services:
+  app:
+    container_name: nds-app
+    build: .
+    command: yarn start --foo two --bar four
+    working_dir: /src
+    volumes:
+      - ./:/src
+    networks:
+      - nds
+networks:
+  nds:
+    driver: bridge
