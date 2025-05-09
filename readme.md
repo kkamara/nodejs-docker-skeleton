@@ -29,9 +29,12 @@ yarn install
 ## Usage
 
 ```bash
-docker-compose up --build # to run on first time
-docker-compose up --build -d # to run in background
-docker-compose up # to run when file-changes have been made
+# to run on first time
+docker-compose up --build
+# to run in background
+docker-compose up --build -d
+# to run when file-changes have been made
+docker-compose up
 ```
 
 <a name="not-using-docker"></a>
